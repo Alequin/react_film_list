@@ -1,0 +1,32 @@
+.film-list{
+  padding: 5px;
+}
+
+.film{
+  display: flex;
+}
+
+.film p{
+  margin-bottom: 0;
+}
+
+.film a{
+  text-decoration: none;
+}
+
+.film-text{
+  margin-top: 0;
+  margin-left: 10px;
+  width: 250px;
+  font-size: 18px;
+}
+
+.showtime-text{
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.film img{
+  width: 20px;
+  height: 25px;
+}
