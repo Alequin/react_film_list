@@ -1,5 +1,4 @@
 .small-text{
-  margin-top: 2px;
   font-size: 16px;
 }
 
@@ -21,6 +20,7 @@
 
 .film{
   display: flex;
+  margin-bottom: 20px;
 }
 
 .film img{
@@ -33,8 +33,11 @@
   margin-left: 10px;
 }
 
+.showtime-text{
+  margin-top: 4px;
+}
+
 .see-more-link{
-  margin-top: 15px;
   margin-bottom: 35px;
 }
 
