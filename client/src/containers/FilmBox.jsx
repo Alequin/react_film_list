@@ -1,10 +1,11 @@
 import React from "react";
+import FilmTitle from "./../components/FilmTitle";
 
 class FilmBox extends React.Component{
   render(){
     return (
       <div>
-        film box
+        <FilmTitle>UK Opening This Week</FilmTitle>
       </div>
     );
   }
