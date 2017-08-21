@@ -5,7 +5,7 @@ import FilmList from "./../components/FilmList";
 class FilmBox extends React.Component{
   render(){
     return (
-      <div>
+      <div className="film-box">
         <FilmTitle>UK Opening This Week</FilmTitle>
         <FilmList/>
       </div>
