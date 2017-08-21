@@ -1,3 +1,7 @@
+.film-box a{
+  text-decoration: none;
+}
+
 .film-list{
   padding: 5px;
 }
@@ -10,10 +14,6 @@
   margin-bottom: 0;
 }
 
-.film a{
-  text-decoration: none;
-}
-
 .film-text{
   margin-top: 0;
   margin-left: 10px;
@@ -21,7 +21,7 @@
   font-size: 18px;
 }
 
-.showtime-text{
+.small-text{
   margin-top: 2px;
   margin-left: 10px;
 }
