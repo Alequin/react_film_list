@@ -1,6 +1,8 @@
 import React from "react";
+
 import FilmTitle from "./../components/FilmTitle";
 import FilmList from "./../components/FilmList";
+import SeeMore from "./../components/SeeMore";
 
 const films = [
   {name: "Sausage Party", link: "http://www.imdb.com/title/tt1700841/"},
@@ -22,7 +24,7 @@ class FilmBox extends React.Component{
       <div className="film-box">
         <FilmTitle>UK Opening This Week</FilmTitle>
         <FilmList data={this.state.data}/>
-
+        <SeeMore/>
       </div>
     );
   }
