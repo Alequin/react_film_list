@@ -4,7 +4,9 @@ class SeeMore extends React.Component{
   render(){
     return (
       <div className="see-more-link">
-        <a className="small-text" href="#">See more opening this week >></a>
+        <a className="small-text" href="#" onClick={this.props.showMoreFilms}>
+          See more opening this week >>
+        </a>
       </div>
     );
   }
