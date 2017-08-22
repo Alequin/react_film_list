@@ -7,7 +7,7 @@ class FilmList extends React.Component{
 
     const films = this.props.data;
     const filmListElements = films.map(
-      (film) => <Film filmName={film.name} filmLink={film.link}/>
+      (film) => <Film key={film.id} filmName={film.name} filmLink={film.link}/>
     );
 
     return (
