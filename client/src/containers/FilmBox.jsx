@@ -18,15 +18,17 @@ class FilmBox extends React.Component{
 
   constructor(props){
     super(props);
-    this.state = {
+    this.state = this.buildState();
+  }
+
+  buildState(){
+    return {
       filmToShow: this.getFilmsToShow()
     }
   }
 
   showMoreFilms(){
-    this.setState({
-      filmsToShow: this.getFilmsToShow()
-    });
+    this.setState(this.buildState());
   }
 
   getFilmsToShow(){
