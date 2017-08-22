@@ -23,7 +23,7 @@ class FilmBox extends React.Component{
 
   buildState(){
     return {
-      filmToShow: this.getFilmsToShow()
+      filmsToShow: this.getFilmsToShow()
     }
   }
 
@@ -47,7 +47,7 @@ class FilmBox extends React.Component{
     return (
       <div className="film-box">
         <FilmTitle>UK Opening This Week</FilmTitle>
-        <FilmList filmToShow={this.state.filmToShow}/>
+        <FilmList filmsToShow={this.state.filmsToShow}/>
         <SeeMore/>
         <hr/>
         <GetShowTimesButton/>
