@@ -2,7 +2,11 @@ import React from "react";
 import FilmTitle from "./../components/FilmTitle";
 import FilmList from "./../components/FilmList";
 
-const films = ["Sausage Party", "Cafe Society", "Morgan"];
+const films = [
+  {name: "Sausage Party", link: "http://www.imdb.com/title/tt1700841/"},
+  {name: "Cafe Society", link: "http://www.imdb.com/title/tt4513674/?ref_=nv_sr_1"},
+  {name: "Morgan", link: "http://www.imdb.com/title/tt4520364/?ref_=fn_al_tt_1"},
+];
 
 class FilmBox extends React.Component{
 
@@ -18,6 +22,7 @@ class FilmBox extends React.Component{
       <div className="film-box">
         <FilmTitle>UK Opening This Week</FilmTitle>
         <FilmList data={this.state.data}/>
+
       </div>
     );
   }
