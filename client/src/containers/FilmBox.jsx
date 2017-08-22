@@ -16,7 +16,7 @@ class FilmBox extends React.Component{
   constructor(props){
     super(props);
     this.state = {
-      data: films
+      filmToShow: films
     }
   }
 
@@ -24,7 +24,7 @@ class FilmBox extends React.Component{
     return (
       <div className="film-box">
         <FilmTitle>UK Opening This Week</FilmTitle>
-        <FilmList data={this.state.data}/>
+        <FilmList filmToShow={this.state.filmToShow}/>
         <SeeMore/>
         <hr/>
         <GetShowTimesButton/>
