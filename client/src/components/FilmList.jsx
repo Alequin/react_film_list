@@ -4,11 +4,15 @@ import Film from "./../components/Film";
 
 class FilmList extends React.Component{
   render(){
-    console.log(this.props.data);
+
+    const films = this.props.data;
+    const filmListElements = films.map(
+      (film) => <Film filmName={film}/>
+    );
+
     return (
       <div className="film-list">
-        <Film filmName={this.props.data[0]}/>
-        <Film filmName={this.props.data[1]}/>
+        {filmListElements}
       </div>
     );
   }
