@@ -5,8 +5,8 @@ class Film extends React.Component{
     return (
       <div className="film">
         <img src="bookmark.png"/>
-        <a className="medium-text film-text" href="#">This is a film name</a>
-        <a className="small-text showtime-text"href="#">showtime</a>
+        <a className="medium-text film-text" href="#">{this.props.filmName}</a>
+        <a className="small-text showtime-text" href="#">showtime</a>
       </div>
     );
   }

@@ -7,8 +7,8 @@ class FilmList extends React.Component{
     console.log(this.props.data);
     return (
       <div className="film-list">
-        <Film/>
-        <Film/>
+        <Film filmName={this.props.data[0]}/>
+        <Film filmName={this.props.data[1]}/>
       </div>
     );
   }
